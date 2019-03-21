@@ -21,14 +21,10 @@
 #define SRC_ACTIONS_RULE_ID_H_
 
 #ifdef __cplusplus
-class Transaction;
 
 namespace modsecurity {
 class Transaction;
-class RuleWithOperator;
-
 namespace actions {
-
 
 class RuleId : public Action {
  public:
@@ -42,6 +38,7 @@ class RuleId : public Action {
  private:
     double m_ruleId;
 };
+
 
 }  // namespace actions
 }  // namespace modsecurity

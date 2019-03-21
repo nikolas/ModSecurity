@@ -17,14 +17,11 @@
 #include <memory>
 
 #include "modsecurity/actions/action.h"
-#include "modsecurity/rule_message.h"
 
 #ifndef SRC_ACTIONS_DISRUPTIVE_BLOCK_H_
 #define SRC_ACTIONS_DISRUPTIVE_BLOCK_H_
 
 #ifdef __cplusplus
-class Transaction;
-
 namespace modsecurity {
 class Transaction;
 
